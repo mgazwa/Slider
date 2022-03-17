@@ -4,7 +4,15 @@ const firstSlider = {
     navigation: {
         nextEl:'.swiper-button-next',
         prevEl:'.swiper-button-prev',
-    }
+    },
+    scrollbar: {
+        el: '.swiper-scrollbar',
+    },
+    autoplay: {
+        delay: 5000,
+    },
+    // freeMode: true,
+    loop: true,
 
 }
 
