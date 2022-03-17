@@ -1,5 +1,5 @@
 .swiper-container {
-    margin-bottom: 100px;
+    /*margin-bottom: 100px;*/
     /*margin-top: 100px;*/
     /*margin-left: 700px;*/
 }
@@ -17,6 +17,13 @@
 .swiper-container-first .swiper-slide {
     height: auto;
     max-height: 900px;
+}
+
+@media (orientation: portrait) and (max-width: 1024px) {
+    .swiper-container-first .swiper-slide{
+        height: 100vh;
+        max-height: unset;
+    }
 }
 
 .swiper-container-first .swiper-button {

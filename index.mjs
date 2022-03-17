@@ -13,6 +13,18 @@ const firstSlider = {
     },
     // freeMode: true,
     loop: true,
+    lazy: true,
+    a11y: true,
+    breakpoints : {
+        1025: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        1300: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+        },
+    }
 
 }
 
