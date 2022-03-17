@@ -1,7 +1,7 @@
 .swiper-container {
     margin-bottom: 100px;
-    margin-top: 100px;
-    margin-left: 100px;
+    /*margin-top: 100px;*/
+    /*margin-left: 700px;*/
 }
 
 .swiper-container-first {
@@ -12,4 +12,47 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.swiper-container-first .swiper-slide {
+    height: auto;
+    max-height: 900px;
+}
+
+.swiper-container-first .swiper-button {
+    display: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,.3);
+    transform: translateY(-50%);
+    transition: 0.3s;
+    color: black;
+}
+
+@media (min-width: 1025px) {
+    .swiper-container-first .swiper-button {
+        display: flex;
+    }
+}
+
+.swiper-container-first .swiper-button:hover {
+    background-color: rgba(255,255,255,0.7);
+}
+
+.swiper-container-first .swiper-button::after {
+    font-size: 20px ;
+    font-weight: bold;
+}
+
+.swiper-container-first .swiper-button-disabled {
+    display: none;
+}
+
+.swiper-container-first .swiper-scrollbar {
+    background-color: rgba(255,255,255,.3);
+}
+
+.swiper-container-first .swiper-scrollbar-drag {
+    background-color: #fff
 }
