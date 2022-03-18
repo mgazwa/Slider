@@ -32,6 +32,11 @@ const secondSlider = {
         delay: 3000,
     },
     loop: true,
+    cubeEffect: {
+      shadowOffset: 200,
+      shadowScale: 1.1,
+    },
+    effect: 'cube',
     pagination: {
         el: '.swiper-pagination',
         clickable: true,

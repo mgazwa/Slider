@@ -1,11 +1,9 @@
 .swiper-container {
-    /*margin-bottom: 100px;*/
-    /*margin-top: 100px;*/
-    /*margin-left: 700px;*/
+    margin-bottom: 100px;
 }
 
 .swiper-container-first {
-    max-width: 3500px;
+    max-width: 1366px;
 }
 
 .swiper-container-first img {
@@ -32,7 +30,7 @@
     height: 40px;
     border-radius: 50%;
     background-color: rgba(255,255,255,.3);
-    transform: translateY(-50%);
+    transform: translateY(-550%);
     transition: 0.3s;
     color: black;
 }
@@ -66,6 +64,7 @@
 
 .swiper-container-second {
     margin-top: 50px;
+    margin-bottom: 300px;
     width: 500px;
     height: 500px;
 }
