@@ -25,8 +25,25 @@ const firstSlider = {
             spaceBetween: 10,
         },
     }
-
 }
+
+const secondSlider = {
+    autoplay: {
+        delay: 3000,
+    },
+    loop: true,
+    cubeEffect: {
+      shadowOffset: 200,
+      shadowScale: 1.1,
+    },
+    effect: 'cube',
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+};
 
 
 new Swiper('.swiper-container-first', firstSlider )
+
+new Swiper('.swiper-container-second', secondSlider )
