@@ -63,3 +63,15 @@
 .swiper-container-first .swiper-scrollbar-drag {
     background-color: #fff
 }
+
+.swiper-container-second {
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+}
+
+.swiper-container-second img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

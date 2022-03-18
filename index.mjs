@@ -25,8 +25,20 @@ const firstSlider = {
             spaceBetween: 10,
         },
     }
-
 }
+
+const secondSlider = {
+    autoplay: {
+        delay: 3000,
+    },
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+};
 
 
 new Swiper('.swiper-container-first', firstSlider )
+
+new Swiper('.swiper-container-second', secondSlider )
